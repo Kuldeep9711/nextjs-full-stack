@@ -40,8 +40,8 @@ class ApiClient{
         return this.fetch("/videos", {
             method: "POST",
             body: videpData
-        })
+        });
     }
 }
 
-export const apiClient = new ApiClient()
+export const apiClient = new ApiClient();
